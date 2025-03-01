@@ -43,10 +43,10 @@ internal class Program
             }
         }
 
-        //if (count > 1)
-        //    result += str[^1] + count.ToString(); 
-        //else
-        //    result += str[^1].ToString();
+        if (count > 1)
+            result += str[^1] + count.ToString();
+        else
+            result += str[^1].ToString();
 
         return result;
     }
