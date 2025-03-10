@@ -25,6 +25,7 @@ class Program
             if (ch >= '0' && ch <= '9')
             {
                 int Count = int.Parse(ch.ToString());
+
                 for (int i = 0; i < Count - 1; i++)
                 {
                     output += character;
@@ -33,7 +34,7 @@ class Program
             else
             {
                 output += character;
-                //character = ch.ToString();
+                character = ch.ToString();
             }
         }
 
