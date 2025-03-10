@@ -22,31 +22,30 @@ internal class Program
         Console.ReadLine();
     }
 
-    private static string EncodeString(string str)
+    private static string EncodeString(string S)
     {
         string result = "";
         int count = 1;
 
-        for (int i = 0; i < str.Length - 1; i++)
+        for (int i = 0; i < S.Length - 1; i++)
         {
-            if (str[i] == str[i + 1])
+            if (S[i] == S[i + 1])
                 count++;
             else
             {
                 if (count > 1)
-                    result += str[i] + count.ToString();
+                    result += S[i] + count.ToString();
                 else
-                    result += str[i]; 
+                    result += S[i];
 
-                count = 1;  
-
+                count = 1;
             }
         }
 
         if (count > 1)
-            result += str[^1] + count.ToString();
+            result += S[S.Length - 1] + count.ToString();
         else
-            result += str[^1].ToString();
+            result += S[S.Length - 1].ToString();
 
         return result;
     }
