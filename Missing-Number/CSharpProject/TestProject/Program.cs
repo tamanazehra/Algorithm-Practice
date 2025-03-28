@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+
 //Find the Missing Number in a Sequence 
 //You are given a sequence of N consecutive numbers from 1 to N, but one number is 
 //missing. The numbers are given in a random order as a list. Your task is to determine the 
