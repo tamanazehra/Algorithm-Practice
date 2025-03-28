@@ -17,8 +17,9 @@ class Program
 {
     static void Main()
     {
-        int[] arr = [ 1, 2, 4, 5 ];
-        int N = 5;
+        int[] arr = [1, 2, 4, 5];
+
+        Array.Sort(arr);
 
         for (int i = 0; i < arr.Length - 1; i++)
         {
