@@ -28,4 +28,5 @@ else
     d = c * 3;
     Console.WriteLine(d);
 }
+
 Console.ReadLine();
