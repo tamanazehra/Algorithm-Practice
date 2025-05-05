@@ -6,7 +6,7 @@ int sign;
 
 if (number < 0)
 {
-number = Math.Abs(number);
+   number = Math.Abs(number);
    sign = -1;
 }
 else
