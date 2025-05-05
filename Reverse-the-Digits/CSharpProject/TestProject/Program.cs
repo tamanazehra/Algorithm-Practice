@@ -14,7 +14,6 @@ else
     sign = 1;
 }
 
-
 int reverse = 0;
 
 while (number > 0)
