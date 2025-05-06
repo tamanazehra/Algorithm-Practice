@@ -1,11 +1,11 @@
-﻿Console.WriteLine("Enter the Number:" );
+﻿Console.Write("Enter the Number: " );
 int input = Convert.ToInt32(Console.ReadLine());
 
 int newInput;
 
 if (input == 0)
 {
-    Console.WriteLine(1);
+    Console.WriteLine("Number of digits: " + 1);
 }
 else
 {
